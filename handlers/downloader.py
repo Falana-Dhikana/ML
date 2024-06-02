@@ -14,7 +14,7 @@ cc = 0
 
 EXTRA_LINKS = {
     "CP_VIMEO_TYPE": ("https://videos.classplusapp.com/", "https://api.edukemy.com/videodetails/", "https://tencdn.classplusapp.com", "https://covod.testbook.com/"),
-    "GUIDELY_LINK": ("https://guidely.prepdesk.in/api/", "https://ibpsguide.prepdesk.in/api/"),
+    "GUIDELY_LINK": ("https://app.magmail.eu.org/get_keys/", "https://app.magmail.eu.org/get_keys"),
     # "http://104.199.144.5:1935/vod/",
     "SET3": ("https://ply-404.herokuapp.com/"),
     "EDU_PDF": ("https://edukemy-v2-assets.s3.ap-south-1.amazonaws.com/course_content/"),
