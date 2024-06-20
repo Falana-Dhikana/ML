@@ -11,7 +11,7 @@ from handlers.uploader import Upload_to_Tg
 from handlers.tg import TgClient
 import requests
 import wget
-import img2pdf
+from fpdf import FPDF
 
 @ace.on_message(
     (filters.chat(Config.GROUPS) | filters.chat(Config.AUTH_USERS)) &
@@ -43,11 +43,16 @@ async def drm(bot: ace, m: Message):
         return f"{tPath}/{file_name}.jpg"
 
 
-    def downloadPdf(title, imagelist):
-        with open(f"{path}/{title}.pdf", "wb") as f:
-            f.write(img2pdf.convert([i for i in imagelist]))
-        PDF = f"{path}/{title}.pdf"
-        return PDF
+    def downloadPdf(title, imagelist, path='.'):
+        pdf = FPDF()
+        for image in imagelist:
+            pdf.add_page()
+            pdf.image(image, x=10, y=10, w=190)
+        
+        pdf_output_path = os.path.join(path, f"{title}.pdf")
+        pdf.output(pdf_output_path)
+        
+        return pdf_output_path
 
     Show =  await bot.send_message(
         m.chat.id,
