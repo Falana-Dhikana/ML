@@ -14,12 +14,12 @@ Deploy on `VPS`
 ```
 sudo apt update
 sudo apt install ffmpeg git python3-pip
-git clone https://gitHub.com/rishavdevkr/maal
+git clone https://github.com/Falana-Dhikana/ML
 cd maal 
 pip3 install -r requirements.txt
 python3 -m main
 ```
 
-- if you want bot to be running in background then enter `screen -S srcb` before `python3 -m main` 
+- if you want bot to be running in background then enter `screen -S ML` before `python3 -m main` 
 - after `python3 -m main`, click ctrl+A, ctrl+D
-- if you want to stop bot, then enter `screen -r srcb` and click ctrl+A then press K and enter Y.
+- if you want to stop bot, then enter `screen -r ML` and click ctrl+A then press K and enter Y.
