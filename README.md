@@ -1,9 +1,3 @@
-# BATCH EXTRACTOR AND DOWNLOADER
-
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://telegram.dog/rishavdevkr)
-
-## How to Deploy? 🤔. you can deploy over Heroku or your VPS too.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aloneboy121/Maal)
 
 ## COMMANDS
 ### AVAILABLE COMMANDS 
@@ -13,26 +7,8 @@
 Classplus app and all the other app which is available in you text Files
 ``` 
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
 # Deploy
-
 Deploy on `VPS`
-
-Easy Method:
-
-- Intall docker-compose
-- Fill in the variables in docker-compose.yml file using your favorite text editor or nano 
-- Start the container 
-
-```
-sudo apt install docker-compose -y
-nano docker-compose.yml
-sudo docker-compose up --build
-```
-
-The hard Way:
-
 - Fill vars in your fork in [this](https://github.com/vasusen-code/SaveRestrictedContentBot/blob/master/main/__init__.py) file as shown in this [picture](https://t.me/MaheshChauhan/36)
 - enter all the below commands
 
