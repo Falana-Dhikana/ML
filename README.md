@@ -8,7 +8,7 @@ Classplus app and all the other app which is available in you text Files
 
 # Deploy
 Deploy on `VPS`
-- Fill vars in your fork in [this](https://github.com/vasusen-code/SaveRestrictedContentBot/blob/master/main/__init__.py) file as shown in this [picture](https://t.me/MaheshChauhan/36)
+- Fill vars in your fork in [this](https://github.com/Falana-Dhikana/ML/main)
 - enter all the below commands
 
 ```
