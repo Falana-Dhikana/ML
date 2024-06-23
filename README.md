@@ -8,7 +8,7 @@ Classplus app and all the other app which is available in you text Files
 
 # Deploy
 Deploy on `VPS`
-- Fill vars in your fork in [this](https://github.com/Falana-Dhikana/ML/main)
+- Fill vars in your fork in [this](https://github.com/Falana-Dhikana/ML/blob/main/main.py)
 - enter all the below commands
 
 ```
