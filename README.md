@@ -1,6 +1,5 @@
 
 ## COMMANDS
-### AVAILABLE COMMANDS 
 ```
 /start - check whether the bot is alive 
 /pro - For downloading all app videos such as Physics Wallah, Khan GS, careerwill, E1 Coaching App,
